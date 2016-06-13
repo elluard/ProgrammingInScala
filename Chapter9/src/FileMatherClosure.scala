@@ -18,7 +18,7 @@ object FileMatherClosure {
         filesMatching(_.matches(query))
 
     def main(args : Array[String]) : Unit = {
-        var output = filesEnding("iml");
-        println(output);
+        val output = filesEnding("iml")
+        println(output)
     }
 }
